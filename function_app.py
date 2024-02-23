@@ -40,7 +40,7 @@ def construct_target_base_url(blob_url):
 app = func.FunctionApp(http_auth_level=func.AuthLevel.FUNCTION)
 
 @app.route(route="http_trig_translator_dap_demo")
-def http_trig_translator(req: func.HttpRequest) -> func.HttpResponse:
+def http_trig_translator_dap_demo(req: func.HttpRequest) -> func.HttpResponse:
     logging.info('Python HTTP trigger function processed a request.')
 
     endpoint = 'https://pag-azje-translator.cognitiveservices.azure.com/'
