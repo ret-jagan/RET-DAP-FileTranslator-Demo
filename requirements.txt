@@ -5,6 +5,4 @@
 azure-functions
 urllib3
 requests
-pandas
-openpyxl
-pymongo
+
