@@ -118,8 +118,6 @@ def http_trig_translator_dap_demo(req: func.HttpRequest) -> func.HttpResponse:
         }]
         # return func.HttpResponse(result)
 
-
-
 # Convert the result to a JSON string
     json_result = json.dumps(result)
 
